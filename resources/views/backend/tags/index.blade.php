@@ -41,7 +41,7 @@
                                 <i class="fas fa-edit fa-lg"></i></a>
                               </td>      
                               <td>
-								<form action="{{ route('tags.destroy', $tag->id) }}" onsubmit="return confirm('Are you sure?');"  method="post">
+								                  <form action="{{ route('tags.destroy', $tag->id) }}" onsubmit="return confirm('Are you sure?');"  method="post">
                                   @csrf
                                   @method('DELETE')               
                                  <button class="btn btn-warning" type="submit">

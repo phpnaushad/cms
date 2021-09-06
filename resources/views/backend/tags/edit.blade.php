@@ -28,8 +28,8 @@
                     <label for="exampleInputPassword1">Status</label>                    
                     <select name="txtStatus" id="txtStatusId" class="form-control custom-select">
                       <option value="">Select one</option>                     
-                      <option value="1" {{ $banner->status == 1 ? 'selected="selected"' : '' }}>Active</option>
-                      <option value="0" {{ $banner->status == 0 ? 'selected="selected"' : '' }}>Inactive</option>           
+                      <option value="1" {{ $tag->status == 1 ? 'selected="selected"' : '' }}>Active</option>
+                      <option value="0" {{ $tag->status == 0 ? 'selected="selected"' : '' }}>Inactive</option>           
                   </select>
                   </div>
 
